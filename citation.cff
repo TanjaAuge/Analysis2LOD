@@ -1,0 +1,30 @@
+cff-version: 1.0.0
+title: Analysis2LOD
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Tanja
+    family-names: Auge
+    affiliation: >-
+      Faculty for Informatics and Data Science, University
+      of Regensburg, Regensburg
+   orcid: 'https://orcid.org/0009-0006-2150-9713'
+  - given-names: Max
+    family-names: Schröder
+    affiliation: 'University Library, University of Rostock, Rostock'
+    orcid: 'https://orcid.org/0000-0003-1522-494X'
+  - given-names: Sascha
+    family-names: Genehr
+    affiliation: >-
+      Data Science and Machine Learning Group, Wismar
+      University of Applied Sciences, Wismar
+    orcid: 'https://orcid.org/0000-0002-1702-6878'
+repository-code: 'https://github.com/TanjaAuge/Analysis2LOD'
+abstract: >-
+  This repository contains the source code of an infrastructure-based approach
+  to extract data provenance from SQL query workflows and subsequently
+  transform into workflow provenance.
+license: MIT
+version: 1.0.0

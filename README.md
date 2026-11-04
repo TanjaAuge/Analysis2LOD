@@ -1,9 +1,10 @@
 # Data Provenance to Workflow Provenance
 
-This repository contains the Jupyter notebooks and datasets used to reproduce the results presented in the **paper**. 
-It demonstrates how data provenance can be extracted from SQL query workflows and subsequently transformed into workflow provenance.
+This repository contains the source code of an infrastructure-based approach to extract data provenance from SQL query workflows and subsequently transform into workflow provenance.
 
 **Note that this software is a research prototype and may contain bugs and errors, i.e., do not use this in production.**
+
+The approach is described in full detail in this article: TBD
 
 ## License
 

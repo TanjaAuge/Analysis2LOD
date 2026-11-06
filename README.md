@@ -34,8 +34,8 @@ Before running the notebook, replace the `xxx` placeholders for `user` and `pass
 ### Running
 
 Run the notebooks in this order:
-1. Configure `database_config.py?, then run `extract_data-provenance.ipynb` to compute data provenance for the SQL workflows.
-2. Run `dataprov2workflowprov.ipynb to transform the generated data provenance into workflow provenance. 
+1. Configure `database_config.py`, then run `extract_data-provenance.ipynb` to compute data provenance for the SQL workflows.
+2. Run `dataprov2workflowprov.ipynb` to transform the generated data provenance into workflow provenance. 
 
 ## Repository Contents
 
@@ -55,5 +55,5 @@ Run the notebooks in this order:
 
 ### Reproducibility
 
-All datasets and notebooks required to reproduce the results of **paper xyzzy** are included in this repository. 
+The dataset that is created by this software as results of paper TBD is included in this repository: [https://github.com/m6121/Infrastructure-based-Provenance-Tracking](https://github.com/m6121/Infrastructure-based-Provenance-Tracking).
 The notebooks provide the individual steps from database setup and data provenance extraction to the generation of workflow provenance.

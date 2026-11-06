@@ -1,0 +1,209 @@
+sql_query_0 = """
+    SELECT time, type, 'R1_1' AS region, r1_1 AS intensityMean
+	  FROM ti
+	UNION ALL
+	SELECT time, type, 'R2_1' AS region, r2_1 AS intensityMean
+	  FROM ti
+	UNION ALL
+	SELECT time, type, 'R3_1' AS region, r3_1 AS intensityMean
+	  FROM ti
+    UNION ALL
+	SELECT time, type, 'R4_1' AS region, r4_1 AS intensityMean
+	  FROM ti
+	UNION ALL
+	SELECT time, type, 'R5_1' AS region, r5_1 AS intensityMean
+	  FROM ti
+    UNION ALL
+	SELECT time, type, 'R6_1' AS region, r6_1 AS intensityMean
+	  FROM ti
+	UNION ALL
+	SELECT time, type, 'R7_1' AS region, r7_1 AS intensityMean
+	  FROM ti
+    UNION ALL
+	SELECT time, type, 'R8_1' AS region, r8_1 AS intensityMean
+	  FROM ti
+	UNION ALL
+	SELECT time, type, 'R9_1' AS region, r9_1 AS intensityMean
+	  FROM ti
+    UNION ALL
+	SELECT time, type, 'R10_1' AS region, r10_1 AS intensityMean
+	  FROM ti
+	UNION ALL
+    SELECT time, type, 'R1_2' AS region, r1_2 AS intensityMean
+	  FROM ti
+	UNION ALL
+	SELECT time, type, 'R2_2' AS region, r2_2 AS intensityMean
+	  FROM ti
+	UNION ALL
+	SELECT time, type, 'R3_2' AS region, r3_2 AS intensityMean
+	  FROM ti
+    UNION ALL
+	SELECT time, type, 'R4_2' AS region, r4_2 AS intensityMean
+	  FROM ti
+	UNION ALL
+	SELECT time, type, 'R5_2' AS region, r5_2 AS intensityMean
+	  FROM ti
+    UNION ALL
+	SELECT time, type, 'R6_2' AS region, r6_2 AS intensityMean
+	  FROM ti
+	UNION ALL
+	SELECT time, type, 'R7_2' AS region, r7_2 AS intensityMean
+	  FROM ti
+    UNION ALL
+	SELECT time, type, 'R8_2' AS region, r8_2 AS intensityMean
+	  FROM ti
+	UNION ALL
+	SELECT time, type, 'R9_2' AS region, r9_2 AS intensityMean
+	  FROM ti
+    UNION ALL
+	SELECT time, type, 'R10_2' AS region, r10_2 AS intensityMean
+	  FROM ti
+	UNION ALL
+    SELECT time, type, 'R1_3' AS region, r1_3 AS intensityMean
+	  FROM ti
+	UNION ALL
+	SELECT time, type, 'R2_3' AS region, r2_3 AS intensityMean
+	  FROM ti
+	UNION ALL
+	SELECT time, type, 'R3_3' AS region, r3_3 AS intensityMean
+	  FROM ti
+    UNION ALL
+	SELECT time, type, 'R4_3' AS region, r4_3 AS intensityMean
+	  FROM ti
+	UNION ALL
+	SELECT time, type, 'R5_3' AS region, r5_3 AS intensityMean
+	  FROM ti
+    UNION ALL
+	SELECT time, type, 'R6_3' AS region, r6_3 AS intensityMean
+	  FROM ti
+	UNION ALL
+	SELECT time, type, 'R7_3' AS region, r7_3 AS intensityMean
+	  FROM ti
+    UNION ALL
+	SELECT time, type, 'R8_3' AS region, r8_3 AS intensityMean
+	  FROM ti
+	UNION ALL
+	SELECT time, type, 'R9_3' AS region, r9_3 AS intensityMean
+	  FROM ti
+    UNION ALL
+	SELECT time, type, 'R10_3' AS region, r10_3 AS intensityMean
+	  FROM ti
+	UNION ALL
+    SELECT time, type, 'R1_4' AS region, r1_4 AS intensityMean
+	  FROM ti
+	UNION ALL
+	SELECT time, type, 'R2_4' AS region, r2_4 AS intensityMean
+	  FROM ti
+	UNION ALL
+	SELECT time, type, 'R3_4' AS region, r3_4 AS intensityMean
+	  FROM ti
+    UNION ALL
+	SELECT time, type, 'R4_4' AS region, r4_4 AS intensityMean
+	  FROM ti
+	UNION ALL
+	SELECT time, type, 'R5_4' AS region, r5_4 AS intensityMean
+	  FROM ti
+    UNION ALL
+	SELECT time, type, 'R6_4' AS region, r6_4 AS intensityMean
+	  FROM ti
+	UNION ALL
+	SELECT time, type, 'R7_4' AS region, r7_4 AS intensityMean
+	  FROM ti
+    UNION ALL
+	SELECT time, type, 'R8_4' AS region, r8_4 AS intensityMean
+	  FROM ti
+	UNION ALL
+	SELECT time, type, 'R9_4' AS region, r9_4 AS intensityMean
+	  FROM ti
+    UNION ALL
+	SELECT time, type, 'R10_4' AS region, r10_4 AS intensityMean
+	  FROM ti
+	UNION ALL
+    SELECT time, type, 'R1_5' AS region, r1_5 AS intensityMean
+	  FROM ti
+	UNION ALL
+	SELECT time, type, 'R2_5' AS region, r2_5 AS intensityMean
+	  FROM ti
+	UNION ALL
+	SELECT time, type, 'R3_5' AS region, r3_5 AS intensityMean
+	  FROM ti
+    UNION ALL
+	SELECT time, type, 'R4_5' AS region, r4_5 AS intensityMean
+	  FROM ti
+	UNION ALL
+	SELECT time, type, 'R5_5' AS region, r5_5 AS intensityMean
+	  FROM ti
+    UNION ALL
+	SELECT time, type, 'R6_5' AS region, r6_5 AS intensityMean
+	  FROM ti
+	UNION ALL
+	SELECT time, type, 'R7_5' AS region, r7_5 AS intensityMean
+	  FROM ti
+    UNION ALL
+	SELECT time, type, 'R8_5' AS region, r8_5 AS intensityMean
+	  FROM ti
+	UNION ALL
+	SELECT time, type, 'R9_5' AS region, r9_5 AS intensityMean
+	  FROM ti
+    UNION ALL
+	SELECT time, type, 'R10_5' AS region, r10_5 AS intensityMean
+	  FROM ti
+	UNION ALL
+    SELECT time, type, 'R1_6' AS region, r1_6 AS intensityMean
+	  FROM ti
+	UNION ALL
+	SELECT time, type, 'R2_6' AS region, r2_6 AS intensityMean
+	  FROM ti
+	UNION ALL
+	SELECT time, type, 'R3_6' AS region, r3_6 AS intensityMean
+	  FROM ti
+    UNION ALL
+	SELECT time, type, 'R4_6' AS region, r4_6 AS intensityMean
+	  FROM ti
+	UNION ALL
+	SELECT time, type, 'R5_6' AS region, r5_6 AS intensityMean
+	  FROM ti
+    UNION ALL
+	SELECT time, type, 'R6_6' AS region, r6_6 AS intensityMean
+	  FROM ti
+	UNION ALL
+	SELECT time, type, 'R7_6' AS region, r7_6 AS intensityMean
+	  FROM ti
+    UNION ALL
+	SELECT time, type, 'R8_6' AS region, r8_6 AS intensityMean
+	  FROM ti
+	UNION ALL
+	SELECT time, type, 'R9_6' AS region, r9_6 AS intensityMean
+	  FROM ti
+    UNION ALL
+	SELECT time, type, 'R10_6' AS region, r10_6 AS intensityMean
+	  FROM ti
+   """
+
+sql_query_1 = """
+    SELECT time, type, 'R1_1' AS region, r1_1 AS intensityMean
+	  FROM ti
+	UNION ALL
+	SELECT time, type, 'R2_1' AS region, r2_1 AS intensityMean
+	  FROM ti
+	UNION ALL
+	SELECT time, type, 'R3_1' AS region, r3_1 AS intensityMean
+	  FROM ti
+   """
+
+sql_query_2 = """
+    SELECT time, type, intensityMean
+    FROM q01
+    WHERE (time <= 240.0 AND time >= 240.0)
+    """
+
+sql_query_3 = """
+    SELECT time, type, AVG(intensityMean) AS mean
+    FROM q02
+    GROUP BY time, type
+    """
+
+sql_query_4 = """
+    SELECT time, type, ROUND(mean::numeric,1) AS round_mean
+    FROM q03
+    """
